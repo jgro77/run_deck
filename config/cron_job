@@ -1,0 +1,6 @@
+export CRON_TZ=America/Mexico_City                                                                                          │ls 1
+                                                                                                                            │Connection to 52.52.135.158 closed.
+0       19      *       *       MON,TUE,WED,THU sh -c ". /etc/profile; stop_servers >/tmp/test"                             │Transferred: sent 2832, received 2436 bytes, in 
+0       16      *       *       FRI stop_servers sh -c ". /etc/profile; stop_servers >/tmp/test"                            │1.2 seconds
+                                                                                                                            │Bytes per second: sent 2290.1, received 1969.9
+0       7       *       *       MON,TUE,WED,THU,FRI sh -c ". /etc/profile; start_servers >/tmp/test"                        │debug1: Exit status 0
